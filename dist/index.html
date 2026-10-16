@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d17">
+  <meta name="description" content="12問で見つける、あなたのヒーロー気質。A bilingual, unofficial hero personality quiz.">
+  <title>HERO / WITHIN — ヒーロー性格診断</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath fill='%23ff4c55' d='M20 2 36 10 32 29 20 38 8 29 4 10Z'/%3E%3Cpath fill='%23090d17' d='m13 12 7 7 7-7v16h-5v-8l-2 2-2-2v8h-5Z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="header wrap">
+    <a class="brand" href="./" aria-label="HERO WITHIN"><span class="brand-mark" aria-hidden="true">H</span> HERO<span class="brand-slash">/</span>WITHIN</a>
+    <div class="languages" role="group" aria-label="Language"><button type="button" data-lang="ja" lang="ja">日本語</button><span aria-hidden="true">/</span><button type="button" data-lang="en" lang="en">English</button></div>
+  </header>
+  <main id="app" class="wrap"></main>
+  <footer class="footer wrap"><span>HERO / WITHIN <span class="footer-dot">·</span> <span id="footer-label"></span></span><p id="disclaimer"></p></footer>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
